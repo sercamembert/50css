@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8">
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+<textarea cols="84" rows="41" >
+
+DOKUMENT HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html>
+<meta charset="UTF-8">
+<link rel="Stylesheet" type="text/css" href="masz_z7.css" />
+
+</head>
+<body>
+<ol>
+
+<li><h1>Na co pozwala <b>styl lokalny,</b> który element będzie formatowany z użyciem stylu
+lokalnego?</h1></li>
+<p>
+Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi
+strony. Jest wstawiany w tej samej linii, w której znajduje się element formatowany.
+O tym, który to będzie element, decyduje słowo kluczowe "selektor".
+</p>
+<li>
+<h1>Składnia teoretyczna ( z użyciem ramki otaczającej może być tabela o jednej
+komórce, zastosuj „znaki specjalne” do napisania definicji stylu lokalnego tak aby
+instrukcja CSS nie wykonywała się a tylko wyświetlała wewnątrz ramki [&nbsp;
+spacja niełamana przykład „znaku specjalnego”),</h1>
+</li>
+
+<table border="1">
+<tr>
+<td>&lt;selektor style="cecha1: wartość1; cecha2: wartość2..."&gt;...&lt;/selektor&gt;</td>
+</tr>
+</table>
+lub inaczej
+<table border="1">
+<tr>
+<td>&lt;selektor style="nasze style"&gt;treść bloku&lt;/selektor&gt;
+</td>
+</tr>
+</table>
+
+<li><h1>Co może być <b>selektorem?</b></h1></li>
+<p>
+<b>Selektorem</b> może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td
+(komórka tabeli) i inne. To właśnie elementom znajdującym się pomiędzy tymi znacznikami,
+nadajemy atrybuty formatowania.
+</p>
+
+<li><h1>Co wipisujemy jako <b>"cechę"</b>. Jakie jest znaczenie średników,</h1></li>
+<p>
+Jako <b>"cecha"</b> czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie
+konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color).
+Jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone
+średnikami.
+
+</p>
+
+<li><h1>Co wipisujemy jako <b>"wartość"</b> (w deklaracji stylu)?
+</h1></li>
+<p>
+Jako wyraz <b>"wartość"</b> (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla
+koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po
+której stoi w deklaracji.
+Opis wszystkich cech później.
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+</ol>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+DOKUMENT CSS
+
+p{
+font-family: Arial;
+	
+}
+
+table{
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	border-collapse: collapse;
+	
+}
+
+
+
+
+</textarea>
+
+
+
+
+
+
+
+</body>
+</html>

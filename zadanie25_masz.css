@@ -1,0 +1,58 @@
+#akapit1_maszota
+{
+text-align: right;
+font-family: serif;
+color: #808080;
+text-indent: 3cm;
+line-height: 1.2cm;
+word-spacing: 9px;
+letter-spacing: 3ex;
+}
+#pierwszy {
+	text-decoration: overline;
+	font-style:italic;
+	font-weight: 400;
+	font-size: xx-small;
+}
+#drugi
+{
+	color: #666666;
+	font-weight: 600;
+	font-size: medium;
+	text-transform: uppercase;
+}
+#trzeci {
+	font-size: xx-large;
+	font-weight: 800;
+	color: #708090;
+}
+
+#akapit2_maszota {
+	text-align: center;
+	font-family: sans-serif;
+	color: #696969;
+	text-indent: 15mm;
+	line-height: 18mm;
+	word-spacing: 13pt;
+	letter-spacing: 0,3 cm;
+}
+
+#czwarty {
+	font-style: oblique;
+	font-weight: 300;
+	font-size: 28px;
+	color: #DCDCDC;
+}
+
+#pi¹ty {
+	color: #A9A9A9;
+	font-weight: 600;
+	font-size: 2in;
+	text-transform: capitalize;
+}
+
+#szósty {
+	font-size: 3em;
+	font-weight: 800;
+	color: #C0C0C0;
+}

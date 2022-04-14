@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8">
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+<textarea cols="84" rows="41" >
+
+DOKUMENT HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html>
+<meta charset="UTF-8">
+<link rel="Stylesheet" type="text/css" href="masz_z8.css" />
+
+</head>
+<body>
+<ol>
+<h1>WEWNĘTRZYNY ARKUSZ STYLÓW</h1>
+<li><h1>Gdzie jest wstawiany?</h1></li>
+<p>
+Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami &lt;head> a
+&lt;/head>). 
+</p>
+<li>
+<h1>Składnia teoretyczna</h1>
+</li>
+
+<table border="1">
+<tr>
+
+<td width="450px">
+&lt;head>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;style type="text/css">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;/* &lt;![CDATA[ */</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor1 { cecha: wartość; cecha2: wartość2... }
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor2 { cecha: wartość; cecha2: wartość2... }
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)
+<<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>/* ]]> */
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/style></b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)
+<br>
+&lt;/head>
+</td>
+</tr>
+</table>
+
+<p>gdzie: w sposób wyróżniony (pogrubieniem) zaznaczono elementy składowe wewnętrznego
+arkusza stylów. Natomiast w miejsce kropek (...) można wpisać dalsze polecenia.</p>
+
+<li><h1>Jakie mogą być selektory?</b></h1></li>
+<p>
+<b>Selektorem</b> może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi
+znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
+</p>
+
+<li><h1>Jakie mogą być cechy i wartości?</h1></li>
+<p>
+Jako <b>"cecha"</b> czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie
+konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color).
+Jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone
+średnikami.Jako wyraz <b>"wartość"</b> (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla
+koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po
+której stoi w deklaracji.
+Opis wszystkich cech później.
+
+</p>
+</ol>
+</body>
+</html>
+
+DOKUMENT CSS
+
+p{
+font-family: Arial;
+	
+}
+
+</textarea>
+
+
+
+
+
+
+
+</body>
+</html>

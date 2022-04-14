@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <ol type="1">
+        <li>
+            <h1>zapisz zastosowanie i składnię selektora potomka</h1><br> Przy użyciu selektora potomka można formatować elementy, które sa zawarte wewnątrz innych znaczników, czyli leżą niżej w hierarchii drzewa dokumentu.<br> Składnia teoretyczna:<br> przodek1
+            przodek2 ... potomek { cecha: wartość }<br>
+
+
+
+            <li>
+                <h1>do formatowania jakich elementów służy</h1><br> Selektor potomka pozwala nadać atrybuty elementom, które leżą niżej w hierarchii drzewa dokumentu (zawierają się w innych zewnętrznych znacznikach). Dzięki temu możemy zmienić typ formatowania
+                tylko dla określonych elementów, które są podrzędne w stosunku do innych (przodków).
+
+                <li>
+                    <h1>składnia teoretyczna (w ramce)</h1><br>
+                    <fieldset>
+                        &lt;html&gt;<br> &lt;head&gt;
+                        <br> &lt;title&gt;styl wpisany&lt;/title&gt;<br> &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;<br> &lt;style type="text/css"&gt;<br> p b { color: red }<br> &lt;/style&gt;
+                        <br> &lt;/head&gt;
+                        <br> &lt;body&gt;
+                        <br> &lt;p&gt;Dzięki temu, jeśli wewnątrz znacznika p (akapit)&lt;br&gt;<br> &lt;b&gt; znajdzie się znacznik b (czyli pogrubienie tekstu), to zostanie on automatycznie &lt;/b&gt;&lt;br&gt;<br> napisany czcionką koloru czerwonego.&lt;/p&gt;<br>                        &lt;/body&gt;
+                        <br> &lt;/html&gt;
+                        <br>
+                    </fieldset>
+
+                    <li>
+                        <h1>opis przodek, potomek, cecha, wartość</h1><br> "przodek1, przodek2,..." oraz "potomek" (wielokropek należy pominąć!) są selektorami typu, przy czym przodek leży wyżej w hierarchii drzewa dokumentu Natomiast wyrazy "cecha" oraz
+                        "wartość" określają atrybuty elementu.
+
+    </ol>
+
+
+</body>
+
+</html>
+<!-- Filip Maszota -->
